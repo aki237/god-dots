@@ -1,0 +1,13 @@
+*.elc
+*.dat
+url/
+eshell/
+auto-save-list/
+.mc-lists.el
+ido.last
+tramp
+.cask/
+.mybkmrks
+.python-environments/
+elpa
+ido.last
