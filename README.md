@@ -18,6 +18,12 @@ After this in your .emacs file add the following :
 (load-file "~/.emacs.d/config.el")
 ;; SEE THIS ^^^^^^^^^^^^^^^^^^^^ file <- This too.
 ```
+or
+Run
+``` shell
+$ ~/.emacs.d/install.sh
+```
+
 
 # PS
 After setup if have any problems... delete both .emacs and .emacs.d and
