@@ -35,7 +35,7 @@
 (display-battery-mode)
 (setq battery-update-interval 1)
 (setq battery-mode-line-format "🔌%B \% %p")
-(global-whitespace-mode)
+;;(global-whitespace-mode)
 (server-start)
 (setq inhibit-startup-screen t)                               ;; Inhibit the startup screen and show the scratch buffer
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
@@ -81,7 +81,7 @@
 (setq url-proxy-services '(("https" . "127.0.0.1:9999")))     ;; Set https proxy for all the url services.
 (setq url-proxy-services '(("socks" . "127.0.0.1:9050")))     ;; Set socks proxy for all the url services.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")    ;; Add a directory to search for themes.
-(load-theme 'granger t)                                      ;; Load my favourite theme.
+(load-theme 'dracula t)                                      ;; Load my favourite theme.
 (setq-default c-basic-offset 4)
 (mybkmrk/init)                                                ;; yacp : yet another crappy package
 (setq-default line-spacing 5)                                 ;; Set default line sppacing
